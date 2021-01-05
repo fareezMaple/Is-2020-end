@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Is 2020 end?',
+      title: 'Is 2021 end?',
       theme: ThemeData(
         textTheme: GoogleFonts.ralewayTextTheme(),
         primaryColor: Colors.black,

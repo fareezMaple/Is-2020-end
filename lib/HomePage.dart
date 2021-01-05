@@ -9,7 +9,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int phoneDate;
-  int targetDate = 2020;
+  int targetDate = 2021;
   String answer;
 
   @override
@@ -36,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
               color: Theme.of(context).primaryColor,
               child: Center(
                 child: Text(
-                  'Is 2020 end?',
+                  'Is $targetDate end?',
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 32,
