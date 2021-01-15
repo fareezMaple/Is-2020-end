@@ -39,7 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   'Is $targetDate end?',
                   style: TextStyle(
                     color: Colors.white,
-                    fontSize: 32,
+                    fontSize: 35,
                   ),
                 ),
               ),
@@ -48,11 +48,22 @@ class _MyHomePageState extends State<MyHomePage> {
           Expanded(
             flex: 3,
             child: Container(
-              child: Center(
-                child: Text(
-                  answer,
-                  style: TextStyle(fontSize: 45, fontWeight: FontWeight.bold),
-                ),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text(
+                    answer,
+                    style: TextStyle(fontSize: 45, fontWeight: FontWeight.bold),
+                  ),
+                  checkYear()
+                      ? Text(
+                          answer,
+                          //TODO: Do rolling text here
+                          style: TextStyle(
+                              fontSize: 45, fontWeight: FontWeight.bold),
+                        )
+                      : Container(),
+                ],
               ),
             ),
           ),
