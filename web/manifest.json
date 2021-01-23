@@ -1,11 +1,11 @@
 {
-    "name": "is_2020_end",
-    "short_name": "is_2020_end",
+    "name": "Is 2k21 end?",
+    "short_name": "2k21?",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Sabar dengan ujianNya",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

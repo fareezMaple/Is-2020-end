@@ -1,11 +1,10 @@
-# Is 2020 end?
+# Is 2021 end?
 
-Tired of 2020?
+Tired of 2020? And 2021 still feels the same?
 
 ## Release
 
-1. [Web app](https://is-2020-end.web.app/)
-2. [Google Play Store (Android)](https://play.google.com/store/apps/details?id=com.fareez.is_2020_end)
+[Google Play Store (Android)](https://play.google.com/store/apps/details?id=com.fareez.is_2020_end)
 
 ## Watch speedcode
 

@@ -8,12 +8,11 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Is 2020 end?',
+      title: 'Is 2021 end?',
       theme: ThemeData(
         textTheme: GoogleFonts.ralewayTextTheme(),
         primaryColor: Colors.black,
@@ -23,3 +22,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+//TODO: AnimatedFlipCounter
+//TODO: Rotation responsize layout
