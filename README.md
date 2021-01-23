@@ -1,6 +1,6 @@
 # Is 2021 end?
 
-Tired of 2020? And 2021 still feels the same?
+Tired of 2020? And 2021 still feels the same? Huh life...
 
 ## Release
 
